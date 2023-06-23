@@ -4,7 +4,7 @@
 /**
  * _rotr - check code
  * @stack: ptr to stack
- * @line_num: the line
+ * @line_number: the line
  */
 
 void _rotr(stack_t **stack, unsigned int line_number)
