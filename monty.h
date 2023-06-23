@@ -44,9 +44,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-void check_num_of_args(int argc, char *argv[]);
-FILE *op_file(char *fname);
-void clean_mem(stack_t **stack, FILE *file_ptr);
 int parse_line(char *curr_line, stack_t **stack, unsigned int line_num);
 int parse_file(FILE *file_ptr, stack_t **stack);
 instruction_t *get_instruction(char *opcode, instruction_t *instrs);
@@ -75,7 +72,7 @@ void stack_mode(stack_t **stack, unsigned int line_number);
 void queue_mode(stack_t **stack, unsigned int line_number);
 
 void push_stack(stack_t **stack, stack_t *new_node);
-void push_q(stack_t **stack, stack_t *new_node);
+void push_queue(stack_t **stack, stack_t *new_node);
 
 void num_of_args_check(int argc, char *argv[]);
 FILE *op_file(char *fname);

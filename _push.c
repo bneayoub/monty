@@ -21,5 +21,5 @@ void _push(stack_t **stack, unsigned int line_num)
 	if (MODE == STACK)
 		push_stack(stack, new_node);
 	else
-		push_q(stack, new_node);
+		push_queue(stack, new_node);
 }
