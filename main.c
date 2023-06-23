@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * num_of_args_check - Entry point
+ * main - Entry point
  * @argc: num of args
  * @argv: list of args
  * Return: void
