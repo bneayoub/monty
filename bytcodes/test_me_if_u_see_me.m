@@ -1,0 +1,22 @@
+push 90
+push 32
+push 117
+push 32
+push 104
+push 116
+push 105
+push 119
+push 32
+push 107
+push 114
+push 111
+push 119
+push 32
+push 50
+push 32
+push 121
+push 112
+push 112
+push 97
+push 72
+pstr
